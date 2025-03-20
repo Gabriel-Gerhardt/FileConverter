@@ -19,8 +19,8 @@ function App() {
       <h1>WizardOfFiles</h1>
       <h3></h3>
       <div><Input></Input></div>
-
-      <div><Input></Input></div>
+      <h1> </h1>
+      <div><label htmlFor="">Arquivo Convertido:</label></div>
       <div className="convert">
         <Converter></Converter>
       </div>
