@@ -1,5 +1,5 @@
-function Converter() {
-    let name = "Transform";  
+
+function Converter({name}) {
 
     return (
         <button type="button" className="convert" onClick={() => console.log('hello')}>

@@ -22,7 +22,7 @@ function App() {
       <h1> </h1>
       <div><label htmlFor="">Arquivo Convertido:</label></div>
       <div className="convert">
-        <Converter></Converter>
+        <Converter name={"Transform"}></Converter>
       </div>
       </main>
   );
