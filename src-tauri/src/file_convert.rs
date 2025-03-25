@@ -8,7 +8,6 @@ pub fn pages_to_pdf(input_path: &str, output_path: &str) -> Result<(), io::Error
         return Err(io::Error::new(io::ErrorKind::NotFound, "Input file not found"));
     }
 
-    // Check if LibreOffice is installed by running 'libreoffice --version'
     let libreoffice_check = Command::new("soffice")
         .arg("--version")
         .output();
