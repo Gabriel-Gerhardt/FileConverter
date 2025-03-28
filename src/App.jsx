@@ -4,7 +4,7 @@ import { invoke } from "@tauri-apps/api/core";
 import "./App.css";
 import Converter from "./Components/Button";
 import Input from "./Components/Input_archive";
-
+import Top_container from "./Components/Top_container";
 function App() {
   const [greetMsg, setGreetMsg] = useState("");
   const [name, setName] = useState("");
@@ -16,8 +16,8 @@ function App() {
 
   return (
     <main className="container">
-      <h1>WizardOfFiles</h1>
-      <h3></h3>
+      <div className="top_container">
+        <Top_container title={"WizardOfFiles"}></Top_container></div>
       <div><Input></Input></div>
       <h1> </h1>
       <div><label htmlFor="">Arquivo Convertido:</label></div>

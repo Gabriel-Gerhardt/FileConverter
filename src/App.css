@@ -17,7 +17,6 @@
 
 .container {
   margin: 0;
-  padding-top: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -93,6 +92,7 @@ button {
   :root {
     color: #f6f6f6;
     background-color: #2f2f2f;
+    background: linear-gradient(to bottom, #2f2f2f,black);
   }
 
   a:hover {
@@ -123,4 +123,15 @@ label {
 input,
 label {
   margin: 0.4rem 0;
+}
+.top_container{
+  width: 1450px;
+  background-color: #32333336;
+  text-align: center;
+  margin-bottom: 100px;
+  border-color: #0f0e0e3b;
+  border-style: solid;
+}
+.top_container:hover{
+
 }
